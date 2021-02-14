@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "viewbobbingmod",
+  "version": "${version}",
+  "name": "No View Bobbing Screen Shake",
+  "description": "Remove screen shake when using view bobbing!",
+  "authors": [
+    "InboundBark"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/viewbobbingmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "viewbobbingmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "minecraft": "1.16.5"
+  }
+}
