@@ -7,7 +7,11 @@
   "authors": [
     "InboundBark"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/no-view-bobbing-screen-shake",
+    "sources": "https://github.com/InboundBark/viewbobbingmod",
+    "issues": "https://github.com/InboundBark/viewbobbingmod/issues"
+  },
   "license": "MIT",
   "icon": "assets/viewbobbingmod/icon.png",
   "environment": "client",
