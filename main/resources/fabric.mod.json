@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "viewbobbingmod",
   "version": "${version}",
-  "name": "No View Bobbing Screen Shake",
+  "name": "No Screen Bobbing",
   "description": "Remove screen shake when using view bobbing!",
   "authors": [
     "InboundBark"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/no-view-bobbing-screen-shake",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/no-screen-bobbing",
     "sources": "https://github.com/InboundBark/viewbobbingmod",
     "issues": "https://github.com/InboundBark/viewbobbingmod/issues"
   },
