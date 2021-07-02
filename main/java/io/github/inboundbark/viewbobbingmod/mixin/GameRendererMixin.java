@@ -3,7 +3,7 @@ package io.github.inboundbark.viewbobbingmod.mixin;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.client.util.math.Vector3f;
+import net.minecraft.util.math.Vec3f;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -21,8 +21,8 @@ public abstract class GameRendererMixin {
     private void bobView(GameRenderer gameRenderer, MatrixStack matrixStack, float f) {
         if (this.client.getCameraEntity() instanceof PlayerEntity) {
             matrixStack.translate((0.0F), (0.0F), 0.0D);
-            matrixStack.multiply(Vector3f.POSITIVE_Z.getDegreesQuaternion(0.0F));
-            matrixStack.multiply(Vector3f.POSITIVE_X.getDegreesQuaternion(0.0F));
+            matrixStack.multiply(Vec3f.POSITIVE_Z.getDegreesQuaternion(0.0F));
+            matrixStack.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(0.0F));
         }
     }
 }
