@@ -3,17 +3,18 @@
   "id": "noscreenbobbing",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "No Screen Bobbing",
+  "description": "Remove view bobbing's screen shake while keeping hand bobbing.",
   "authors": [
-    "Me!"
+    "inboundbark"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://modrinth.com/mod/viewbobbingmod",
+    "sources": "https://github.com/inboundbark/viewbobbingmod",
+    "issues": "https://github.com/inboundbark/viewbobbingmod/issues"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/noscreenbobbing/icon.png",
 
   "environment": "*",
@@ -32,5 +33,9 @@
 
   "depends": {
     "minecraft": "1.0.0-beta.7.3"
+  },
+
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }
