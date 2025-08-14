@@ -4,11 +4,11 @@
   "package": "io.github.inboundbark.noscreenbobbing.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
   ],
   "server": [
   ],
   "client": [
+    "GameRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
